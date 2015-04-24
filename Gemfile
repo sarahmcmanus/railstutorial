@@ -37,6 +37,9 @@ group :development, :test do
   gem 'byebug'    
   gem 'web-console'
   gem 'spring'
+  # Spruces up rails console with colors and Pry tools
+  # alas it has problems, need to replace debugger with pry-byebug
+  # gem 'jazz_hands'
 end
 
 group :test do
