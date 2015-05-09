@@ -219,10 +219,10 @@ DEPENDENCIES
   jquery-rails
   mini_backtrace
   minitest-reporters
-  pg (= 0.17.1)
-  puma (= 2.11.1)
+  pg
+  puma
   rails (= 4.2.0)
-  rails_12factor (= 0.0.2)
+  rails_12factor
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring
