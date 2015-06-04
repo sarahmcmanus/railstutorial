@@ -1,10 +1,17 @@
 source 'https://rubygems.org'
 
 
+# Specifyin my rubies
+ruby '2.2.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use bcrypt hash function to make a password digest 
 gem 'bcrypt', '3.1.7'
+# Use Faker to make sample users with semi-realistic names and email addresses
+gem 'faker', '1.4.2'
+# Paginate with these next two
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
 # Use Bootstrap framework for CSS
 gem 'bootstrap-sass'
 # Use sqlite3 as the database for Active Record
